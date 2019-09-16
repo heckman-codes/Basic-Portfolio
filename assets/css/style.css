@@ -1,0 +1,139 @@
+/*  MY NAME   font-family: 'Abel', sans-serif;
+    BODY COPY font-family: 'Raleway', sans-serif; */
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #1d1e22;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 960px;
+}
+/* Header with Name and NavBar */
+header {
+    height: 121px;
+    margin: 0px auto 0px auto;
+    padding: 0;
+    width: 960px;
+    background-image: url("http://www.figureeightdesign.com/images/dike_snake_blur.png");
+    background-size: cover;
+}
+
+#rock-on{
+    float:left;
+    margin: 10px 0px 10px 20px;
+    height: 80%;
+}
+
+#top-name {
+    float: left;
+    margin: 40px 0px 10px 20px;
+    text-transform: uppercase;
+    font-family: 'Abel', sans-serif;
+    color: #feda6a;
+    width: 30%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+li a {
+    float: right;
+    border-left: 1px solid #d4d4dc;
+    text-transform: uppercase;
+    font-family: 'Abel', sans-serif;
+    color: #d4d4dc;
+    padding: 85px 14px 15px 14px;
+    text-align: right;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #1d1e22;
+    background-color: #feda6a;
+  }
+
+.stat-text {
+    width: 100%;
+    text-align: right;
+    float: right;
+    padding: 15px 0px 0px 0px;
+    font-family: 'Raleway', sans-serif;
+    color: #d4d4dc;
+    font-size: 11px;
+}
+.stat-text:last-child {
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-left: 30px;
+    font-family: 'Abel', sans-serif;
+    color: #feda6a;
+}
+
+h3 {
+    vertical-align: center;
+    font-size: 10px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+b {
+    color: #feda6a;
+    font-weight: 800;
+}
+
+aside {
+    float: left;
+    width: 30%;
+}
+
+#about-me {
+    margin: 20px 0px;
+    width: 70%;
+    float: right;
+}
+
+#bio-image {
+    margin-top: 94px;
+    border-radius: 10px;
+}
+
+p {
+    line-height: 24px;
+    margin-left: 30px;
+    color: #d4d4dc;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+footer {
+    margin: 0 auto;
+    background-color: #333333;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 50vh 0 50vh #333333;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    color: #feda6a;
+    background-color: #feda6a;
+    margin: 0px 0px 0px 30px
+}
+
