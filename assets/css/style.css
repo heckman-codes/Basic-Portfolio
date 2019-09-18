@@ -45,12 +45,12 @@ header {
 
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 
 
-li a {
+li a.nav-link {
     float: right;
     border-left: 1px solid #d4d4dc;
     text-transform: uppercase;
@@ -61,7 +61,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+li a.nav-link:hover {
     color: #1d1e22;
     background-color: #feda6a;
   }
@@ -81,7 +81,7 @@ li a:hover {
 
 h2 {
     font-size: 30px;
-    margin-left: 30px;
+    margin-left: 30px; 
     font-family: 'Abel', sans-serif;
     color: #feda6a;
 }
@@ -107,6 +107,11 @@ aside {
     margin: 50px 0px 20px 0px;
     width: 70%;
     float: right;
+}
+
+#contact-me {
+    width: 70%;
+    margin: 50px auto 20px auto;
 }
 
 #bio-image {
@@ -140,3 +145,62 @@ hr {
     margin: 10px 0px 10px 30px
 }
 
+input {
+    margin: 0px 0px 25px 30px;
+    width: 620px;
+    height: 20px;
+    color: white;
+    font-size: 12px;
+    padding-left: 20px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #feda6a;
+    background-color: #1d1e22;
+    border-radius: 10px 10px 0px 0px;
+}
+
+input.contact-message-box {
+    resize: vertical;
+    overflow: hidden;
+}
+
+.p-contact {
+    margin: 0px 0px 5px 30px;
+}
+
+li a.social-media {
+    display: inline;
+    float: left;
+    text-transform: uppercase;
+    font-family: 'Abel', sans-serif;
+    color: #d4d4dc;
+    text-decoration: none;
+    margin: 20px 0 20px 0;
+    padding: 0px 10px;
+}
+
+li a.social-media:first-child {
+    margin-left: 100px;
+}
+
+li a.social-media:hover {
+    color: #1d1e22;
+    background-color: #feda6a;
+  }
+
+  textarea {
+    margin: 0px 0px 25px 30px;
+    width: 620px;
+    color: white;
+    font-size: 12px;
+    padding-left: 20px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #feda6a;
+    background-color: #1d1e22;
+    border-radius: 10px 10px 0px 0px;
+    resize: vertical;
+    overflow: visible;
+  }
