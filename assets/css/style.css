@@ -93,6 +93,16 @@ h3 {
     font-family: 'Raleway', sans-serif;
 }
 
+h4 {
+    bottom: 10px;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    margin: 140px auto 0px;
+    font-family: 'Abel', sans-serif;
+    color: #feda6a;
+    background-color: #333333
+}
+
 b {
     color: #feda6a;
     font-weight: 800;
@@ -198,6 +208,15 @@ input.contact-message-box {
 
 .p-contact {
     margin: 0px 0px 5px 30px;
+}
+
+#submit-button {
+    background-color: #333333;
+    font-family: 'Abel', sans-serif;
+    color: #feda6a;
+    margin-left: 30px;
+    border-style: none;
+    font-size: 16px;
 }
 
 li a.social-media {
