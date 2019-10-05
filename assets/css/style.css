@@ -254,3 +254,13 @@ li a.social-media:hover {
     resize: vertical;
     overflow: visible;
   }
+
+  .hangman-game {
+    display:inline;
+    float: left;
+    margin: 30px 0px 0px 42px;
+    width: 200px;
+    height: 200px;
+    background-color: #1d1e22;
+    background-image: url(../images/hangman-img.png);
+  }
